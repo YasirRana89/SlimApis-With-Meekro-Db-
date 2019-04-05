@@ -1,0 +1,84 @@
+body{
+    background-color: #ffffff;
+}
+.col-sm-6{
+    background-color:#2553cd;
+    height: 960px;
+    
+}
+.heading{
+    color: white;
+    margin-top: 10px;
+}
+.description{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.form-signin {
+    color: #9eb7f7;
+    background-color: #2553cd;
+
+}
+.form-signin .form-custome{
+    width: 100%;
+    margin-top: 20px;
+    height: 65px;
+    border-radius: 10px ;
+    border: none;
+    background-color: #3467ef;
+    color: #ffffff;
+}
+.form-signin input[type="text"] {
+    padding-left: 15px;
+    font-size: 20px;
+}
+#submit{
+    background-color: white;
+    color: #0048cc;
+    height: 65px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.description-end{
+    color: #98aee7;
+    font-size: 14px;
+    line-height: 1rem;
+    margin-top: 40px;
+    text-align: center;
+}
+.btn-end {
+    width: 30%;
+    height: 30px;
+    margin-left: 190px;
+    margin-top: 20px;
+    background-color: #2553cd;
+    border-radius: 3px;
+    color: #98aee7;
+    
+}
+::placeholder { 
+    color: #98aee7;
+    opacity: 1; 
+  }
+  @media only screen and (max-width: 410px) {
+    .btn-end {
+       width: 60%;
+       height: 30px;
+       margin-left: 58px;
+       margin-top: 34px;
+       background-color: #2553cd;
+       border-radius: 3px;
+       color: #98aee7;
+   }
+     }
+     @media only screen and (max-width: 600px){
+   .btn-end {
+    width: 60%;
+    height: 30px;
+    margin-left: 68px;
+    margin-top: 15px;
+    background-color: #2553cd;
+    border-radius: 3px;
+    color: #98aee7;
+}}
